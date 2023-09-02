@@ -13,20 +13,22 @@ telas grandes: acima de 1200px*/
         background-image: linear-gradient(to top, var(--lilasegroselha), var(--verde));
     }
 
-    #login {
+    section#login {
         width: 80vw;
+        height: 280px;
     }
 
-    #login > #imagem {
+    section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
     }
 
-    #login > #formulario {
+    section#login > div#formulario {
         float: right;
         width: 70%;
     }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -35,23 +37,27 @@ telas grandes: acima de 1200px*/
         background-image: linear-gradient(to top, var(--lilasegroselha), var(--verde));
     }
 
-    #login {
+    section#login {
         width: 950px;
     }
 
-    #login > #imagem {
+    section#login > div#imagem {
         float: right;
         width: 50%;
         height: 100%;
     }
     
-    #login > #formulario {
+    section#login > div#formulario {
         float: left;
         width: 50%;
     }
 
-    #formulario {
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
         font-size: 1.2em;
     }
-}
 
+}
